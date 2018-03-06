@@ -126,4 +126,28 @@ namespace Project._1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SelfAssessment> ReviewedSelfAssessments { get; set; }
     }
+
+    public enum Gender
+    {
+       // Female,
+       // when its just one word no need for display. But display is for displaying the property so keep/ or remove as please.
+
+        [Display(Name = "Female")]
+        Female,
+
+        [Display(Name ="Male")]
+        Male
+    }
+
+    public enum  EmploymentType
+    {
+        [Display(Name = "Full-timer")]
+        FullTimer,
+
+        [Display(Name = "Part-timer")]
+        PartTimer,
+
+        [Display(Name = "Intern")]
+        Intern
+    }
 }

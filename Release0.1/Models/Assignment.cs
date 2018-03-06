@@ -46,4 +46,6 @@ namespace Project._1.Models
 
         public virtual ProbationaryColleague ProbationaryColleague { get; set; }
     }
+
+    // ADD ENUMS TO ALL CLASSES
 }
